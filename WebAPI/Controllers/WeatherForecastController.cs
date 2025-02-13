@@ -22,7 +22,7 @@ namespace WebAPI.Controllers
              if (!_context.Cuenta.Any())   
        {  
          _context.Cuenta.Add(new Cuenta   
-                  { CuentaId = 1, monto = 100.12m,moneda_origen="S",
+                  { CuentaId = 1, monto = 100.13m,moneda_origen="S",
                   moneda_destino="D",monto_con_tipo_de_cambio=50.5m,tipo_de_cambio=10.234m});  
          _context.SaveChanges();   
        }  
